@@ -1,5 +1,6 @@
 site_header: MRM Exports
 menu:
+    Home:
     Fruits:
         - Pomegranate
         - Melon

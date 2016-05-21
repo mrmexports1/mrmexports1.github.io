@@ -69,8 +69,16 @@ def build_menus(product, nav_menu_conf=None, outfile=None):
         else:
             # <li><a href="../about-us.html">About Us</a></li>
             filefolder_name = menu.lower().replace(' ','')
-            link = '/{}/{}.html'.format(filefolder_name, filefolder_name)
-            menu_txt = '<li><a href=\"{}\">{}</a></li>'.format(link, menu)
+            class_type = ''
+            if menu.lower() == product.lower():
+                class_type = 'class=\"active\"'
+
+            if menu == 'Home':
+                link = '/index.html'
+                menu_txt = '<li {}><a href=\"{}\"><span class=\"fa fa-home home-icon\">&nbsp;&nbsp;</span>{}</a></li>'.format(class_type, link, menu)
+            else:
+                link = '/{}/{}.html'.format(filefolder_name, filefolder_name)
+                menu_txt = '<li {}><a href=\"{}\">{}</a></li>'.format(class_type, link, menu)
             all_menu_text += menu_txt
 
 

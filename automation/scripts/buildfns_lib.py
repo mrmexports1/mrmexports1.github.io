@@ -9,6 +9,8 @@ def replace_text_with_file_context(dict, outfile):
     with open(replace_file, 'r') as rf:
         replace_string = rf.read()
 
+    if not replace_string:
+        replace_string = ''
     file_text = file_text.replace('###{}###'.format(search_string), replace_string)
 
     with open(outfile, 'w') as fout:
@@ -24,6 +26,8 @@ def replace_text(dict,  outfile):
 
     search_string = dict.keys()[0]
     replace_string = dict[search_string]
+    if not replace_string:
+        replace_string = ''
     file_text = file_text.replace('###{}###'.format(search_string), replace_string)
     fout = open(outfile, 'w')
     fout.write(file_text)
@@ -38,6 +42,8 @@ def replace_text_multiline(dict,  outfile):
 
     search_string = dict.keys()[0]
     replace_string = dict[search_string].replace('\n', '<br>')
+    if not replace_string:
+        replace_string = ''
     file_text = file_text.replace('###{}###'.format(search_string), replace_string)
     fout = open(outfile, 'w')
     fout.write(file_text)
@@ -49,7 +55,7 @@ def replace_text_multiline(dict,  outfile):
 def build_slider(slider_dict, file): 
     slider_data = ''
     for i in slider_dict['slider']:
-        slider_data = slider_data + '''<div class="slide"><img src="{}"></div>\n'''.format(i)
+        slider_data = slider_data + '''<div style="display: none;"><img data-u="image" src="{}"></div>\n'''.format(i)
     replace_text({'slider':slider_data}, file)
     return
 

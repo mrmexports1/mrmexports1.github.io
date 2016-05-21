@@ -10,52 +10,46 @@
                     <li>
                         <a href="/index.html"><span class="fa fa-home home-icon">&nbsp;&nbsp;</span>Home</a>
                     </li>
-		    <li><a href="/rts/rts.html">Rts</a></li><li class="dropdown">
+		    <li class="dropdown">
   <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover="dropdown" data-toggle="dropdown" href="#">
     Fruits<b class="caret"></b>
   </a>
   <ul class="dropdown-menu">
-    <li>
+    <li >
   <a href="/fruits/pomegranate/pomegranate.html">Pomegranate</a>
 </li>
-<li>
+<li >
   <a href="/fruits/melon/melon.html">Melon</a>
-</li>
-
-  </ul>
-</li>
-<li class="dropdown active">
-  <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover="dropdown" data-toggle="dropdown" href="#">
-    Grains<b class="caret"></b>
-  </a>
-  <ul class="dropdown-menu">
-    <li>
-  <a href="/grains/rice/rice.html">Rice</a>
-</li>
-<li>
-  <a href="/grains/daal/daal.html">Daal</a>
-</li>
-<li>
-  <a href="/grains/corn/corn.html">Corn</a>
 </li>
 
   </ul>
 </li>
 <li class="dropdown">
   <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover="dropdown" data-toggle="dropdown" href="#">
+    Grains<b class="caret"></b>
+  </a>
+  <ul class="dropdown-menu">
+    <li >
+  <a href="/grains/rice/rice.html">Rice</a>
+</li>
+
+  </ul>
+</li>
+<li class="dropdown active">
+  <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover="dropdown" data-toggle="dropdown" href="#">
     Vegetables<b class="caret"></b>
   </a>
   <ul class="dropdown-menu">
-    <li>
+    <li class="active">
   <a href="/vegetables/coconut/coconut.html">Coconut</a>
 </li>
-<li>
+<li >
   <a href="/vegetables/drumstic/drumstic.html">Drumstic</a>
 </li>
-<li>
+<li >
   <a href="/vegetables/elephantyam/elephantyam.html">Elephant Yam</a>
 </li>
-<li>
+<li >
   <a href="/vegetables/onion/onion.html">Onion</a>
 </li>
 
@@ -66,7 +60,7 @@
     Other Products<b class="caret"></b>
   </a>
   <ul class="dropdown-menu">
-    <li>
+    <li >
   <a href="/otherproducts/agal/agal.html">Agal</a>
 </li>
 
@@ -77,13 +71,13 @@
     About<b class="caret"></b>
   </a>
   <ul class="dropdown-menu">
-    <li>
+    <li >
   <a href="/about/team/team.html">Team</a>
 </li>
 
   </ul>
 </li>
-<li><a href="/contactus/contactus.html">Contact us</a></li>
+
 		</ul>
             </div>
         </div>

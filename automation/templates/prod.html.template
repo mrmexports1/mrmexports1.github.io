@@ -1,47 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--Start of head-->
-###site_head###
-<!--/#head-->
-<body>
+	<!--Start of head-->
+	###site_head###
+	<!--/#head-->
+	<body>
 
-<!-- start of header navigation-->
-###site_navigation###
-<!--/header navigation-->
+		<!--Start of scripts -->
+		###product_jscript###
+		<!--/#scripts -->
 
-<section id="recent-works">
-    <div class="container">
-	<div class="nav-fixed wow fadeInDown">
-   		<h2>###product###</h2>
-		<p class="lead">###prod_desc###</p>
-	</div>
-<div class="slider1">
-  ###slider###
-</div>
-</div>
-</section>
-		
-<section ###section-id-product###>
-    <div class="blog">
-    <div class="row">
-    <div class="contact-us">
-	###side_prods###
-	</div><!--/.contact-us-->
-	</div><!--/.row-->
-</div>
-</section><!--/#blog-->
+		<!-- start of header navigation-->
+		###site_navigation###
+		<!--/header navigation-->
 
-<!--Start of footer-->
-###site_footer###
-<!--/#footer-->
+		<div class="container">
+			<div class="col-md-12 text-center">
+				<h2>###product###</h2>
+				<p class="lead">###prod_desc###</p>
+			</div>
+		</div>
+		<div class="container" id="jssor_1" style=
+			"position: relative; margin: 0 auto; top: 0px; left: 0px; width: 809px; height: 150px; overflow: hidden; visibility: hidden;">
+			<!-- Loading Screen -->
+			<div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+				<div style=
+					"filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;">
+				</div>
+				<div style=
+					"position:absolute;display:block;background:url('/assets/images/slides/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;">
+				</div>
+			</div>
+			<div data-u="slides" style=
+				"cursor: default; position: relative; top: 0px; left: 0px; width: 809px; height: 250px; overflow: hidden;">
+				###slider###
+			</div><!-- Bullet Navigator -->
+			<div class="jssorb03" data-u="navigator" style="bottom:10px;right:10px;">
+				<!-- bullet navigator item prototype -->
+				<div data-u="prototype" style="width:21px;height:21px;">
+					<div data-u="numbertemplate"></div>
+				</div>
+			</div><!-- Arrow Navigator -->
+			<span class="jssora03l" data-autocenter="2" data-u="arrowleft" style=
+				"top:0px;left:8px;width:55px;height:55px;"></span> <span class="jssora03r" data-autocenter="2" data-u="arrowright"
+				style="top:0px;right:8px;width:55px;height:55px;"></span>
+		</div>
 
-<!--Start of scripts -->
-###product_jscript###
-<!--/#scripts -->
+		<div>
+			<section ###section-id-product###>
+			<div class="blog">
+				<div class="row">
+					<div class="contact-us">
+						###side_prods###
+					</div><!--/.contact-us-->
+				</div><!--/.row-->
+			</div>
+			</section><!--/#blog-->
+		</div>
 
-<!--Start of google analytics -->
-###google_anlytics###
-<!--/#google_anlytics -->
+		<!--Start of footer-->
+		###site_footer###
+		<!--/#footer-->
 
-</body>
+		<!--Start of google analytics -->
+		###google_anlytics###
+		<!--/#google_anlytics -->
+
+	</body>
 </html>

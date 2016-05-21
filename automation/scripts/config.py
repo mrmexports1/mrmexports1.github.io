@@ -1,5 +1,5 @@
 # Project root directory
-PROJ_ROOT = '/Users/jayabal/git/sundarms.github.io-1/'
+PROJ_ROOT = '/Users/jayabal/git/exports/'
 
 # Content files
 CONTENTS = PROJ_ROOT + 'automation/contents/'

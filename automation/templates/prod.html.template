@@ -33,13 +33,14 @@
 			<div data-u="slides" style=
 				"cursor: default; position: relative; top: 0px; left: 0px; width: 809px; height: 200px; overflow: hidden;">
 				###slider###
-			</div><!-- Bullet Navigator -->
+			</div>
+            <!-- Bullet Navigator -->
 			<!--<div class="jssorb03" data-u="navigator" style="bottom:10px;right:10px;">
-				<!-- bullet navigator item prototype -->
-				<div data-u="prototype" style="width:21px;height:21px;">
-					<div data-u="numbertemplate"></div>
-				</div>
-			</div>--><!-- Arrow Navigator -->
+			 <div data-u="prototype" style="width:21px;height:21px;">
+				<div data-u="numbertemplate"></div>
+             </div>
+			</div>-->
+            <!-- Arrow Navigator -->
 			<span class="jssora03l" data-autocenter="2" data-u="arrowleft" style=
 				"top:0px;left:8px;width:55px;height:55px;"></span> <span class="jssora03r" data-autocenter="2" data-u="arrowright"
 				style="top:0px;right:8px;width:55px;height:55px;"></span>

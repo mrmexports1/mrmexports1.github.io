@@ -5,7 +5,7 @@
               $AutoPlay: true,
               $AutoPlaySteps: 4,
               $SlideDuration: 160,
-              $SlideWidth: 200,
+              $SlideWidth: 285,
               $SlideSpacing: 3,
               $Cols: 4,
               $ArrowNavigatorOptions: {

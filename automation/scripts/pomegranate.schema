@@ -13,7 +13,7 @@ side_prods:
         name: Pomegranate 
         desc1: >
             Our Pomegranates are highly famous for their wholesome qualities.
-		desc2: |
+        desc2: |
             Specification
             - Fruit is nearly round and hard ,Leathery shiny skin
             - Outside skin polished and cleaned with soft long hair brush 
@@ -24,9 +24,9 @@ side_prods:
             - About 35 %, 80-90 mm and 275-350 grams 
             - About 50 %, 75-80 mm and 200-275 grams
             Specification:
-            - Color 		:  Equal red to bright shiny red skin, varying per season
+            - Color         :  Equal red to bright shiny red skin, varying per season
             - Pre cooling   :  Product is handpicked,immediately forced pre-cooled until 5 degrees C within 7 hrs
-            - Maturity 		:  Harvested ripe fruit, No signs of internal browning
+            - Maturity      :  Harvested ripe fruit, No signs of internal browning
             
         image: /fruits/pomegranate/images/original/pmf.gif
     

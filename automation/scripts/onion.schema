@@ -12,17 +12,17 @@ side_prods:
     side_prod1:
         name: Red Onion
         desc1: >
-		desc2: |
+        desc2: |
             Specification
-            - Color 	: Red
-            - Shape 	: Round
-            - Odour		: Celery and bitter
-            - Size		: 30 to 65 mm
-            - Part		: Non Peeled 
+            - Color     : Red
+            - Shape     : Round
+            - Odour     : Celery and bitter
+            - Size      : 30 to 65 mm
+            - Part      : Non Peeled 
         image: /vegetables/onion/images/red_onions.jpg
     side_prod2: 
         name: Yellow Onion
-		desc1: >
+        desc1: >
         desc2: |
             Specification
             - Color   :   Yellow
@@ -33,7 +33,7 @@ side_prods:
         image: /vegetables/onion/images/Yellow_Onion.jpg
     side_prod2:
         name: White Onion
-		desc1: >
+        desc1: >
         desc2: |
             Specification
             - Color   :   White

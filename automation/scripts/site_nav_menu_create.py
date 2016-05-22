@@ -7,10 +7,11 @@ from buildfns_lib import *
 from config import *
 from yaml_ordered_dict import OrderedDictYAMLLoader
 
-def build_menuitem(mitem, link, outfile):
+def build_menuitem(mitem, link, mitem_class_type, outfile):
     copyfile(NAV_MENU_DROPDN_ITEMS_TMPLT_FILE, outfile)
     replace_text({'menu_item': mitem}, outfile)
     replace_text({'menu_item_link': link}, outfile)
+    replace_text({'mitem_class_types': mitem_class_type}, outfile)
     
 def build_mainmenu(menu, tmp_menu_file):
         mitem_text = ''
@@ -37,22 +38,28 @@ def build_menus(product, nav_menu_conf=None, outfile=None):
         tmp_menu_file = 'tmp/tmp_menu_file'
         mitem_text = ''
         if menus[menu]:
+            active_menu = False
             for mitem in menus[menu]:
+                mitem_class_type = ''
                 tmp_mitem_file = 'tmp/tmp_mitem_file'
                 folder_name1 = menu.lower().replace(' ','')
                 folder_name2 = mitem.lower().replace(' ','')
                 link = '/{}/{}/{}.html'.format(folder_name1, folder_name2, folder_name2)
-                build_menuitem(mitem, link, tmp_mitem_file)
+                if product.lower() == mitem.lower():
+                    mitem_class_type = 'class=\"active\"'
+                    active_menu = True
+
+                build_menuitem(mitem, link, mitem_class_type, tmp_mitem_file)
                 with open(tmp_mitem_file, 'r') as f:
                     mitem_text += f.read()
 
             copyfile(NAV_MENU_DROPDN_TMPLT_FILE, tmp_menu_file)
+
             class_type = 'class=\"dropdown'
-            if product in menus[menu]:
+            if active_menu:
                 class_type += ' active\"'
             else:
                 class_type += '\"'
-
             replace_text({'menu_class_types': class_type}, tmp_menu_file)
             replace_text({'menu_name': menu}, tmp_menu_file)
             replace_text({'menu_items': mitem_text}, tmp_menu_file)
@@ -62,8 +69,17 @@ def build_menus(product, nav_menu_conf=None, outfile=None):
         else:
             # <li><a href="../about-us.html">About Us</a></li>
             filefolder_name = menu.lower().replace(' ','')
-            link = '/{}/{}.html'.format(filefolder_name, filefolder_name)
-            menu_txt = '<li><a href=\"{}\">{}</a></li>'.format(link, menu)
+            class_type = ''
+            if menu.lower() == product.lower():
+                class_type = 'class=\"active\"'
+
+            if menu == 'Home':
+                link = '/index.html'
+                menu_txt = '<li {}><a href=\"{}\"><span class=\"fa fa-home home-icon\">&nbsp;&nbsp;</span>{}</a></li>'.format(class_type, link, menu)
+            else:
+                link = '/{}/{}.html'.format(filefolder_name, filefolder_name)
+                menu_txt = '<li {}><a href=\"{}\">{}</a></li>'.format(class_type, link, menu)
+
             all_menu_text += menu_txt
 
 

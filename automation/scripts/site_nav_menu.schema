@@ -1,13 +1,11 @@
 site_header: MRM Exports
 menu:
-    Rts:
+    Home:
     Fruits:
         - Pomegranate
         - Melon
     Grains:
         - Rice
-        - Daal
-        - Corn
     Vegetables:
         - Coconut
         - Drumstick
@@ -17,5 +15,4 @@ menu:
         - Agal
     About:
         - Team
-    Contact us:
-        
+    Contact Us:

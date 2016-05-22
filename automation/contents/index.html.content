@@ -1,0 +1,329 @@
+   <div style="min-height: 50px;">
+        <!-- Jssor Slider Begin -->
+        <!-- To move inline styles to css file/block, please specify a class name for each element. --> 
+        <!-- ================================================== -->
+        <div id="slider1_container" style="visibility: hidden; position: relative; margin: 0 auto;
+        top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
+            <!-- Loading Screen -->
+            <div u="loading" style="position: absolute; top: 0px; left: 0px;">
+                <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block;
+                top: 0px; left: 0px; width: 100%; height: 100%;">
+                </div>
+                <div style="position: absolute; display: block; background: url(/assets/images/slides/loading.gif) no-repeat center center;
+                top: 0px; left: 0px; width: 100%; height: 100%;">
+                </div>
+            </div>
+            <!-- Slides Container -->
+            <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1300px; height: 500px; overflow: hidden;">
+                <div>
+          
+                    <img u="image" src2="/assets/images/slides/home.jpg" />
+          <div style="position: absolute; top: 100px; left: 250px; width: 480px; height: 120px; font-size: 35px; color: #ffffff; line-height: 60px;">Welcome to MRM Exports<br>
+                  <a class="btn btn-large btn-primary" style="margin-left: 160px;" href="#browse-products">Browse Products</a></div>
+
+                </div>
+                <div>
+                    <img u="image" src2="/assets/images/slides/vegetable.jpg" />
+                  <div style="position: absolute; top: 100px; left: 250px; width: 480px; height: 120px; font-size: 35px; color: #ffffff; line-height: 60px;">VEGETABLES</div>
+                </div>
+                <div>
+                    <img u="image" src2="/assets/images/slides/spice.jpg" />
+                  <div style="position: absolute; top: 100px; left: 250px; width: 480px; height: 120px; font-size: 35px; color: #ffffff; line-height: 60px;">SPICES</div>
+                </div>
+
+            </div>
+            
+            <!--#region Bullet Navigator Skin Begin -->
+            <!-- Help: http://www.jssor.com/development/slider-with-bullet-navigator-jquery.html -->
+            <!-- bullet navigator container -->
+            <div u="navigator" class="jssorb21" style="bottom: 16px; right: 6px;">
+                <!-- bullet navigator item prototype -->
+                <div u="prototype"></div>
+            </div>
+            <!--#endregion Bullet Navigator Skin End -->
+            
+            <!-- Arrow Left -->
+            <span u="arrowleft" class="jssora21l" style="top: 123px; left: 8px;">
+            </span>
+            <!-- Arrow Right -->
+            <span u="arrowright" class="jssora21r" style="top: 123px; right: 8px;">
+            </span>
+            
+        </div>
+        <!-- Jssor Slider End -->
+    </div>
+  <!--
+  <div class="col-lg-12 col-md-12 col-xs-12 slider-container">
+    
+    <div id="home-slider" class="carousel slide" data-ride="carousel" data-interval="3000">
+      <div class="carousel-inner">
+          <ol class="carousel-indicators">
+    <li data-target="#home-slider" data-slide-to="0" class="active"></li>
+    <li data-target="#home-slider" data-slide-to="1"></li>
+    <li data-target="#home-slider" data-slide-to="2"></li>
+  </ol>
+        <div class="item active" style=" no-repeat left center; background-size: cover;">
+          <img src="assets/images/slides/home.jpg" />
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Welcome to MRM Exports</h1>
+              <p class="lead">With amazing products and competitive prices</p>
+              <a class="btn btn-large btn-primary" href="#browse-products">Browse Products</a>
+            </div>
+          </div>
+        </div>
+        <div class="item" style="no-repeat left center; background-size: cover;">
+          <img src="assets/images/slides/vegetable.jpg" />
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Vegetables</h1>
+            </div>
+          </div>
+        </div>
+        <div class="item" style=" no-repeat left center; background-size: cover;">
+          <img src="assets/images/slides/spice.jpg" />
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Spices</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+        <a class="left carousel-control" href="#home-slider" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#home-slider" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+
+    </div>
+  </div>
+  -->
+  <section class="features-blocks">
+      <div class="container">
+      	<div style="text-align:center">
+      		<br>
+      		<h3>Why Us</h3>
+      		<p>Quality, Customer Satisfaction and Price</p>
+      	</div>
+        <div class="row vspace">
+          <div class="col-sm-4">
+            <div class="feature-block">
+              <h3><i class="entypo-users"></i>Customer Oriented Company</h3>
+              <p>Exceed Expectations.</p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="feature-block">
+              <h3><i class="entypo-leaf"></i>Fresh and Clean</h3>
+              <p>High quality products.</p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="feature-block">
+              <h3><i class="entypo-cog"></i>Easy to customize</h3>
+              <p>Customization from product to shipment.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row vspace">
+          <div class="col-sm-4">
+            <div class="feature-block">
+              <h3><i class="entypo-tag"></i>Price</h3>
+              <p>Aggressive and Competitive Price.</p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="feature-block">
+              <h3><i class="entypo-lifebuoy"></i>24/7 Support</h3>
+              <p>Prompt response to customer queries round the clock.</p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="feature-block">
+              <h3><i class="entypo-star"></i>Great Team</h3>
+              <p>Great engineers with having good experience.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+  <section class="certification-container">
+    <div class="container">
+       <div style="text-align:center">
+		<h3>Certification</h3>
+		<p>Certified in the following Authorities</p>
+		<br>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="cert-item">
+            <a class="image" href=""><img class="img-rounded" src="assets/images/certification/fda-logo.jpg"></a>
+          </div>
+          <h5>United States of America Food and Drug Admin</h5>
+        </div>
+        <div class="col-sm-3">
+          <div class="cert-item">
+            <a class="image" href=""><img class="img-rounded" src="assets/images/certification/ISO9000_2008.gif"></a>
+            <h5>International Organization for Standardization</h5>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="cert-item">
+            <a class="image" href=""><img class="img-rounded" src="assets/images/certification/DGFT-logo.jpg"></a>
+            <h5>Directorate General of Foreign Trade</h5>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="cert-item">
+            <a class="image" href=""><img class="img-rounded" src="assets/images/certification/EIC-logo.jpg"></a>
+            <h5>Export Inspection Council of India</h5>
+          </div>
+        </div>
+      </div>
+      <br><br><br>
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="cert-item">
+            <a class="image" href=""><img class="img-rounded" src="assets/images/certification/APEDA-logo.jpg"></a>
+          </div>
+          <h5>Agricultural & Processed Food Products Exports Development Authority</h5>
+        </div>
+        <div class="col-sm-3">
+          <div class="cert-item">
+            <a class="image" href=""><img class="img-rounded" src="assets/images/certification/HACCP-logo.png"></a>
+            <h5>Hazard Analysis Critical Control Point, India</h5>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="cert-item">
+            <a class="image" href=""><img class="img-rounded" src="assets/images/certification/MSME-logo.png"></a>
+            <h5>Ministry of Micro Small and Medium Enterprises</h5>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="cert-item">
+            <a class="image" href=""><img class="img-rounded" src="assets/images/certification/CDB-logo.jpg"></a>
+            <h5>Coconut Development Board</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+    <section id="browse-products" class="portfolio-widget">
+      <div class="container">
+    	<div style="text-align:center">
+			<h3>Products</h3>
+			<p>We export all kind of Agriculture and Food products from <br>India</p>
+			<br>
+        </div>
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="portfolio-item">
+              <a class="image" href="grains/cereals.html">
+                <img class="img-rounded" src="assets/images/portfolio/cereals_290x220.jpg">
+              <span class="hover-zoom">Cereal</span></a>
+          
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="portfolio-item">
+              <a class="image" href="vegetables/coconut.html">
+                <img class="img-rounded" src="assets/images/portfolio/coconut_290x220.jpg">
+              <span class="hover-zoom">Coconut</span></a>
+            
+            </div>
+          </div> 
+          <div class="col-sm-3">
+            <div class="portfolio-item">
+              <a class="image" href="grains/jaggery.html">
+                <img class="img-rounded" src="assets/images/portfolio/jagery_290x220.jpg">
+              <span class="hover-zoom">Jaggery</span></a>
+            </div>
+          </div>
+          
+          <div class="col-sm-3">
+            <div class="portfolio-item">
+              <a class="image" href="vegetables/onion.html">
+                <img class="img-rounded" src="assets/images/portfolio/onion_290x220.jpg">
+              <span class="hover-zoom">Onion</span></a>
+            </div>
+          </div>
+             </div><div class="row">
+          <div class="col-sm-3">
+            <div class="portfolio-item">
+              <a class="image" href="grains/peanut.html">
+                <img class="img-rounded" src="assets/images/portfolio/peanuts_290x220.jpg">
+              <span class="hover-zoom">Peanut</span></a>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="portfolio-item">
+              <a class="image" href="grains/pulse.html">
+                <img class="img-rounded" src="assets/images/portfolio/pulse_290x220.jpg">
+              <span class="hover-zoom">Pulse</span></a>
+            </div>
+          </div>
+          
+          <div class="col-sm-3">
+            <div class="portfolio-item">
+              <a class="image" href="grains/rice.html">
+                <img class="img-rounded" src="assets/images/portfolio/rice_290x220.jpg">
+                <span class="hover-zoom">Rice</span>
+              </a>
+            </div>
+          </div>
+          
+          <div class="col-sm-3">
+            <div class="portfolio-item">
+              <a class="image" href="grains/spice.html">
+                <img class="img-rounded" src="assets/images/portfolio/spice_290x220.jpg">
+              <span class="hover-zoom">Spice</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+   
+  <section class="footer-widgets">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+          <h5>Contact</h5>
+          <p><a class="entypo-phone" href="tel:+918548858683">+91 8548858683 (India)</a><br>
+          <a class="entypo-phone" href="tel:+16697778672">+1 (669) 777-8672 (USA)</a><br>
+          <a class="entypo-mail" href="mailto:exports@mrmgroup.in">exports@mrmgroup.in</a><br>
+          <a class="entypo-skype" href="skype:mrm.iexports?call">Skype: mrm.iexports</a><br></p>
+        </div>
+        <div class="col-sm-3">
+          <h5>Address</h5>
+          <p>MRM Group<br>
+          3/197, Morappur<br>
+          Dharmapuri, Tamilnadu<br>
+          India 635305<br></p>
+        </div>
+        <div class="col-sm-3">
+          <section>
+            <iframe frameborder="0" src=
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14942278.815570794!2d76.43839175389667!3d23.889005613884137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bac69666c5aa781%3A0x3e13e0ba9d6ab1c1!2sMRM+Exports!5e0!3m2!1sen!2sus!4v1461826775996"
+            style="max-width: 260px; max-height: 110px; border:0"></iframe>
+          </section>
+        </div>
+        <div class="col-sm-3">
+          <h5>Share</h5>
+          <div class="share a2a_kit a2a_kit_size_24 a2a_default_style">
+				<a class="a2a_button_facebook"></a> 
+				<a class="a2a_button_twitter"></a>
+				<a class="a2a_button_google_plus"></a>
+				<a class="a2a_button_google_gmail"></a>
+				<a class="a2a_button_linkedin"></a>
+		</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  

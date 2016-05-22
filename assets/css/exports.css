@@ -152,7 +152,7 @@ p {
     font-weight: bold;
 }
 .site-header-container {
-    background: #fff;
+    background: #FFF;
     border-color: #B9171F;
 }
 .site-header {
@@ -2297,6 +2297,7 @@ section.blog .sidebar .sidebar-content .discussion-list li .details p {
     margin-top: -1px;
 }
 .dropdown-menu li:hover .sub-menu {
+    background-color: #e7e7e7;
     visibility: visible;
 }
 .dropdown:hover .dropdown-menu {

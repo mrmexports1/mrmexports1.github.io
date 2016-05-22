@@ -48,3 +48,12 @@ HOMEPAGE_JSCRIPT_FILE =  CONTENTS + 'index_jscript.content'
 
 # template files
 HOMEPAGE_TEMPLATE = TEMPLATES + 'index.html.template'
+
+# =================
+# Contact us page
+# Content files
+CONTACT_CONTENT_FILE = CONTENTS + 'contact.html.content'
+CONTACT_JSCRIPT_FILE =  CONTENTS + 'contact_jscript.content'
+
+# template files
+CONTACTPAGE_TEMPLATE = TEMPLATES + 'contact.html.template'

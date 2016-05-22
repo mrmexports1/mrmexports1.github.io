@@ -79,6 +79,7 @@ def build_menus(product, nav_menu_conf=None, outfile=None):
             else:
                 link = '/{}/{}.html'.format(filefolder_name, filefolder_name)
                 menu_txt = '<li {}><a href=\"{}\">{}</a></li>'.format(class_type, link, menu)
+
             all_menu_text += menu_txt
 
 

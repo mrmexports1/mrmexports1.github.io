@@ -127,7 +127,7 @@ def main():
     #nav_menu_conf = yaml.load(open(navmenufile), OrderedDictYAMLLoader)
 
     #if not opt.outfile:
-    outfile = '{}/index-1.html'.format(PROJ_ROOT)
+    outfile = '{}/index.html'.format(PROJ_ROOT)
 
     copyfile(HOMEPAGE_TEMPLATE, outfile)
 

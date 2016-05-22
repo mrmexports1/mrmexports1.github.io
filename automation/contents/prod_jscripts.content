@@ -1,16 +1,16 @@
   <script>
          jQuery(document).ready(function ($) {
-            
             var jssor_1_options = {
               $AutoPlay: true,
-              $AutoPlaySteps: 4,
-              $SlideDuration: 160,
+              $AutoPlaySteps: 1,
+              $SlideDuration: 10,
               $SlideWidth: 285,
               $SlideSpacing: 3,
-              $Cols: 4,
+              $Cols: 2,
+              $SlideEasing: $JssorEasing$.$EaseInOutQuad,
               $ArrowNavigatorOptions: {
                 $Class: $JssorArrowNavigator$,
-                $Steps: 4
+                $Steps: 2
               },
               $BulletNavigatorOptions: {
                 $Class: $JssorBulletNavigator$,

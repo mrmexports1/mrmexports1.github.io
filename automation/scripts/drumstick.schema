@@ -1,0 +1,23 @@
+hirarchy: Vegetables
+product: Drumstick
+title: Drumstick | MRM Exports
+prod_desc: 
+slider:
+    - /vegetables/drumstick/images/ds-400.jpg
+    - /vegetables/drumstick/images/dsm-400.jpg
+    - /vegetables/drumstick/images/dsp-400.jpg
+    - /vegetables/drumstick/images/dsp1-400.jpg
+
+side_prods:
+    section_id_bg_img: /vegetables/drumstick/images/cover-t.jpg
+    side_prod1:
+        name: Drumstick
+        desc1: >
+            We are engaged in offer fresh Drumsticks in the global market.
+            Our Drumsticks are lengthy and of medium softness.
+            They are well examined for infestation, rot and decay at the time of procuring.
+            We pack Drumsticks in optimum quality material to ensure long shelf life.
+            We assure safe and timely delivery of Drumsticks in bulk quantities with our excellent transportation facilities.
+            Drumsticks are made available round the year at reasonable prices.
+        image: /vegetables/drumstick/images/ds1.jpg
+            

@@ -1,0 +1,33 @@
+hirarchy: Fruits
+product: Pomegranate
+title: Pomegranate | MRM Exports
+prod_desc: 
+slider:
+    - /fruits/pomegranate/images/pmp-400.jpg
+    - /fruits/pomegranate/images/pmp1-400.jpg
+    - /fruits/pomegranate/images/pmf-400.jpg
+    - /fruits/pomegranate/images/pmpa-400.jpg
+side_prods:
+    section_id_bg_img: /fruits/pomegranate/images/cover-t.jpg
+    side_prod1: 
+        name: Pomegranate 
+        desc1: >
+            Our Pomegranates are highly famous for their wholesome qualities.
+		desc2: |
+            Specification
+            - Fruit is nearly round and hard ,Leathery shiny skin
+            - Outside skin polished and cleaned with soft long hair brush 
+            Size grading
+            - Size graded with round barsOptional per season period few pallets per FCL,10 mm, 450 gr. and up, ( 7 cnt)
+            - Inside carton separation in diagonal crossing , 2 x 3 x 2 
+            - About 15 %, 90-100 mm and 350-450 grams
+            - About 35 %, 80-90 mm and 275-350 grams 
+            - About 50 %, 75-80 mm and 200-275 grams
+            Specification:
+            - Color 		:  Equal red to bright shiny red skin, varying per season
+            - Pre cooling   :  Product is handpicked,immediately forced pre-cooled until 5 degrees C within 7 hrs
+            - Maturity 		:  Harvested ripe fruit, No signs of internal browning
+            
+        image: /fruits/pomegranate/images/original/pmf.gif
+    
+        

@@ -1,0 +1,23 @@
+hirarchy: Vegetables
+product:Elephant Yam
+title: Elephant Yam | MRM Exports
+prod_desc: 
+slider:
+    - /vegetables/yam/images/yp-400.jpg
+    - /vegetables/yam/images/yb-400.jpg
+    - /vegetables/yam/images/ys-400.jpg
+
+side_prods:
+    section_id_bg_img: /vegetables/yam/images/cover.jpg
+    side_prod1:
+        name: Fresh Elephant Foot Yam
+        desc1: >
+            Elephant Foot Yam is a very nutritious vegetable which can be used to
+            make tasty dishes and also can be used as part of other dishes.
+		desc2: |
+            Specification:
+            - Shape 	: Flattened-globe
+            - Color 	: Dark Brown
+            - Graded 	: Semi Husked
+            - Weight 	: 1 to 7 KG per piece
+        image: /vegetables/yam/images/elephant-foot-yam-full.jpg

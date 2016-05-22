@@ -1,0 +1,28 @@
+hirarchy: Fruits
+product: Melon
+title: Melon | MRM Exports
+prod_desc: 
+slider:
+    - /fruits/melon/images/wm400.jpg
+    - /fruits/melon/images/wmp.jpg
+    - /fruits/melon/images/cpp400.jpg
+    - /fruits/melon/images/cp4001.jpg
+    - /fruits/melon/images/cpp1.jpg
+side_prods:
+    section_id_bg_img: /fruits/melon/images/cover.jpg
+    side_prod1: 
+        name: Watermelon
+        desc1: >
+            Our Watermelon is highly demanded in both national and international markets because of its sweet taste, 
+            high nutritional value and natural freshness.These fresh watermelons are packed properly so as to make sure that the ripeness of the fruit is kept intact.
+		desc2: |
+            Specification:
+            - Color   : Darklight green skin and Red flesh
+            - weight  : 2 -10 kgs. But 3 - 8 kgs fruit preferred
+            Mature:
+            - Fairly well formed and Not Overripe
+            - Free from damage by any means
+            
+        image: /fruits/melon/images/original/wm.jpg
+    
+        

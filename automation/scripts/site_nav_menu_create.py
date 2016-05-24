@@ -78,7 +78,7 @@ def build_menus(product, nav_menu_conf=None, outfile=None):
                 menu_txt = '<li {}><a href=\"{}\"><span class=\"fa fa-home home-icon\">&nbsp;&nbsp;</span>{}</a></li>'.format(class_type, link, menu)
             else:
                 link = '/{}/{}.html'.format(filefolder_name, filefolder_name)
-                menu_txt = '<li {}><a href=\"{}\">{}</a></li>'.format(class_type, link, menu)
+                menu_txt = '<li {}><a href=\"{}\">{}</a></li>\n'.format(class_type, link, menu)
 
             all_menu_text += menu_txt
 

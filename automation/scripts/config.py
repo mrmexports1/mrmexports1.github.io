@@ -57,3 +57,14 @@ CONTACT_JSCRIPT_FILE =  CONTENTS + 'contact_jscript.content'
 
 # template files
 CONTACTPAGE_TEMPLATE = TEMPLATES + 'contact.html.template'
+
+# =================
+# 404 page
+# Content files
+PAGE404_CONTENT_FILE = CONTENTS + '404.html.content'
+PAGE404_JSCRIPT_FILE =  CONTENTS + '404_jscript.content'
+
+# template files
+PAGE404_TEMPLATE = TEMPLATES + '404.html.template'
+
+

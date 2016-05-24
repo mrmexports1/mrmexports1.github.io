@@ -30,13 +30,13 @@ def build_section_id_product(conf, outfile):
     if conf['side_prods'].has_key('section_id_bg_img'):
         sid = "id=\"{}\"".format(conf['product'])
         class_ = "class=\"container\""
-        style = "style=\"margin-top:-5%; background:url({}) 100% 100% no-repeat; background-size:cover;\"".format(
+        style = "style=\"margin-top: 20px; padding-bottom: 30px; background:url({}) 100% 100% no-repeat; background-size:cover;\"".format(
                             conf['side_prods']['section_id_bg_img'])
         replace_txt = "{} {} {}".format(sid, class_, style)
     else:
         sid = "id=\"{}\"".format(conf['product'])
         class_ = "class=\"container\""
-        style = "style=\"margin-top:-5%\""
+        style = "style=\"margin-top: 20px; padding-bottom: 30px;\""
         replace_txt = "{} {} {}".format(sid, class_, style)
 
     replace_text({'section-id-product': replace_txt}, outfile)

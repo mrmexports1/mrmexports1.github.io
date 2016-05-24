@@ -16,11 +16,11 @@
 		<div class="container">
 			<div class="col-md-12 text-center">
 				<h2>###product###</h2>
-				<p class="lead">###prod_desc###</p>
-			</div>
+            </div>
+            <p style="font-size: 18px; margin-bottom: 30px;">###prod_desc###</p>
 		</div>
 		<div class="container" id="jssor_1" style=
-			"position: relative; margin: 0 auto; top: 0px; left: 0px; width: 809px; height: 150px; overflow: hidden; visibility: hidden;">
+			"position: relative; margin: 0 auto; top: 0px; left: 0px; width: 809px; height: 200px; overflow: hidden; visibility: hidden;">
 			<!-- Loading Screen -->
 			<div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
 				<div style=
@@ -31,30 +31,25 @@
 				</div>
 			</div>
 			<div data-u="slides" style=
-				"cursor: default; position: relative; top: 0px; left: 0px; width: 809px; height: 250px; overflow: hidden;">
+				"cursor: default; position: relative; top: 0px; left: 0px; width: 809px; height: 200px; overflow: hidden;">
 				###slider###
-			</div><!-- Bullet Navigator -->
-			<div class="jssorb03" data-u="navigator" style="bottom:10px;right:10px;">
-				<!-- bullet navigator item prototype -->
-				<div data-u="prototype" style="width:21px;height:21px;">
-					<div data-u="numbertemplate"></div>
-				</div>
-			</div><!-- Arrow Navigator -->
+			</div>
+            <!-- Bullet Navigator -->
+			<!--<div class="jssorb03" data-u="navigator" style="bottom:10px;right:10px;">
+			 <div data-u="prototype" style="width:21px;height:21px;">
+				<div data-u="numbertemplate"></div>
+             </div>
+			</div>-->
+            <!-- Arrow Navigator -->
 			<span class="jssora03l" data-autocenter="2" data-u="arrowleft" style=
 				"top:0px;left:8px;width:55px;height:55px;"></span> <span class="jssora03r" data-autocenter="2" data-u="arrowright"
 				style="top:0px;right:8px;width:55px;height:55px;"></span>
 		</div>
 
-		<div>
+		<div class="container" style="padding-left: 0px;">
 			<section ###section-id-product###>
-			<div class="blog">
-				<div class="row">
-					<div class="contact-us">
-						###side_prods###
-					</div><!--/.contact-us-->
-				</div><!--/.row-->
-			</div>
-			</section><!--/#blog-->
+		      ###side_prods###
+			</section>
 		</div>
 
 		<!--Start of footer-->

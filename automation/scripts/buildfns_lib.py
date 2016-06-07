@@ -41,7 +41,10 @@ def replace_text_multiline(dict,  outfile):
     fin.close()
 
     search_string = dict.keys()[0]
-    replace_string = dict[search_string].replace('\n', '<br>')
+    if dict[search_string]:
+        replace_string = dict[search_string].replace('\n', '<br>')
+    else:
+        replace_string = ''
     if not replace_string:
         replace_string = ''
     file_text = file_text.replace('###{}###'.format(search_string), replace_string)

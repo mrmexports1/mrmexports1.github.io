@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!--Start of head-->
+	###site_head###
+	<!--/#head-->
+	<body>
+
+		<!--Start of scripts -->
+		###aboutus_jscript###
+		<!--/#scripts -->
+
+		<!-- start of header navigation-->
+		###site_navigation###
+		<!-- end - navigation-->
+
+		<!-- start of content -->
+		###aboutus_content###
+		<!-- end content -->
+
+
+		<!--Start of footer-->
+		###site_footer###
+		<!--/#footer-->
+
+		<!--Start of google analytics -->
+		###google_anlytics###
+		<!--/#google_anlytics -->
+
+	</body>
+</html>

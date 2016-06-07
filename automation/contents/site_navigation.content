@@ -7,7 +7,7 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav nav-menu pull-right">
-		    <li class="active"><a href="/index.html"><span class="fa fa-home home-icon">&nbsp;&nbsp;</span>Home</a></li><li class="dropdown">
+		    <li ><a href="/index.html"><span class="fa fa-home home-icon">&nbsp;&nbsp;</span>Home</a></li><li class="dropdown">
   <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover="dropdown" data-toggle="dropdown" href="#">
     Fruits<b class="caret"></b>
   </a>
@@ -41,13 +41,13 @@
   <a href="/vegetables/coconut/coconut.html">Coconut</a>
 </li>
 <li >
-  <a href="/vegetables/drumstic/drumstic.html">Drumstic</a>
-</li>
-<li >
-  <a href="/vegetables/elephantyam/elephantyam.html">Elephant Yam</a>
+  <a href="/vegetables/drumstick/drumstick.html">Drumstick</a>
 </li>
 <li >
   <a href="/vegetables/onion/onion.html">Onion</a>
+</li>
+<li >
+  <a href="/vegetables/yam/yam.html">Yam</a>
 </li>
 
   </ul>
@@ -74,7 +74,7 @@
 
   </ul>
 </li>
-
+<li class="active"><a href="/contactus/contactus.html">Contact Us</a></li>
 		</ul>
             </div>
         </div>

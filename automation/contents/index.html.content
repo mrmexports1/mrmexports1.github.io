@@ -161,25 +161,25 @@
       <div class="row">
         <div class="col-sm-3">
           <div class="cert-item">
-            <a class="image" href=""><img class="img-rounded" src="assets/images/certification/fda-logo.jpg"></a>
+            <a class="image" href="http://www.fda.gov/"><img class="img-rounded" src="assets/images/certification/fda-logo.jpg"></a>
           </div>
           <h5>United States of America Food and Drug Admin</h5>
         </div>
         <div class="col-sm-3">
           <div class="cert-item">
-            <a class="image" href=""><img class="img-rounded" src="assets/images/certification/ISO9000_2008.gif"></a>
+            <a class="image" href="http://www.iso.org/iso/catalogue_detail?csnumber=46486"><img class="img-rounded" src="assets/images/certification/ISO9000_2008.gif"></a>
             <h5>International Organization for Standardization</h5>
           </div>
         </div>
         <div class="col-sm-3">
           <div class="cert-item">
-            <a class="image" href=""><img class="img-rounded" src="assets/images/certification/DGFT-logo.jpg"></a>
+            <a class="image" href="http://dgft.gov.in/"><img class="img-rounded" src="assets/images/certification/DGFT-logo.jpg"></a>
             <h5>Directorate General of Foreign Trade</h5>
           </div>
         </div>
         <div class="col-sm-3">
           <div class="cert-item">
-            <a class="image" href=""><img class="img-rounded" src="assets/images/certification/EIC-logo.jpg"></a>
+            <a class="image" href="http://www.eicindia.gov.in/index.aspx"><img class="img-rounded" src="assets/images/certification/EIC-logo.jpg"></a>
             <h5>Export Inspection Council of India</h5>
           </div>
         </div>
@@ -188,25 +188,25 @@
       <div class="row">
         <div class="col-sm-3">
           <div class="cert-item">
-            <a class="image" href=""><img class="img-rounded" src="assets/images/certification/APEDA-logo.jpg"></a>
+            <a class="image" href="http://apeda.gov.in/apedawebsite/index.html"><img class="img-rounded" src="assets/images/certification/APEDA-logo.jpg"></a>
           </div>
           <h5>Agricultural & Processed Food Products Exports Development Authority</h5>
         </div>
         <div class="col-sm-3">
           <div class="cert-item">
-            <a class="image" href=""><img class="img-rounded" src="assets/images/certification/HACCP-logo.png"></a>
+            <a class="image" href="http://www.haccpindia.org/index.php/enquiries"><img class="img-rounded" src="assets/images/certification/HACCP-logo.png"></a>
             <h5>Hazard Analysis Critical Control Point, India</h5>
           </div>
         </div>
         <div class="col-sm-3">
           <div class="cert-item">
-            <a class="image" href=""><img class="img-rounded" src="assets/images/certification/MSME-logo.png"></a>
+            <a class="image" href="http://www.msme.gov.in/mob/home.aspx"><img class="img-rounded" src="assets/images/certification/MSME-logo.png"></a>
             <h5>Ministry of Micro Small and Medium Enterprises</h5>
           </div>
         </div>
         <div class="col-sm-3">
           <div class="cert-item">
-            <a class="image" href=""><img class="img-rounded" src="assets/images/certification/CDB-logo.jpg"></a>
+            <a class="image" href="http://coconutboard.nic.in/"><img class="img-rounded" src="assets/images/certification/CDB-logo.jpg"></a>
             <h5>Coconut Development Board</h5>
           </div>
         </div>

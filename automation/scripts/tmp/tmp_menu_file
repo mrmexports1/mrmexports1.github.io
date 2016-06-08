@@ -1,10 +1,19 @@
-<li class="dropdown">
+<li class="dropdown active">
   <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover="dropdown" data-toggle="dropdown" href="#">
-    About<b class="caret"></b>
+    Vegetables<b class="caret"></b>
   </a>
   <ul class="dropdown-menu">
     <li >
-  <a href="/about/team/team.html">Team</a>
+  <a href="/vegetables/coconut/coconut.html">Coconut</a>
+</li>
+<li >
+  <a href="/vegetables/drumstick/drumstick.html">Drumstick</a>
+</li>
+<li >
+  <a href="/vegetables/onion/onion.html">Onion</a>
+</li>
+<li class="active">
+  <a href="/vegetables/yam/yam.html">Yam</a>
 </li>
 
   </ul>

@@ -32,7 +32,7 @@
 
   </ul>
 </li>
-<li class="dropdown">
+<li class="dropdown active">
   <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover="dropdown" data-toggle="dropdown" href="#">
     Vegetables<b class="caret"></b>
   </a>
@@ -46,35 +46,15 @@
 <li >
   <a href="/vegetables/onion/onion.html">Onion</a>
 </li>
-<li >
+<li class="active">
   <a href="/vegetables/yam/yam.html">Yam</a>
 </li>
 
   </ul>
 </li>
-<li class="dropdown">
-  <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover="dropdown" data-toggle="dropdown" href="#">
-    Other Products<b class="caret"></b>
-  </a>
-  <ul class="dropdown-menu">
-    <li >
-  <a href="/otherproducts/agal/agal.html">Agal</a>
-</li>
+<li ><a href="/aboutus/aboutus.html">About Us</a></li>
+<li ><a href="/contactus/contactus.html">Contact Us</a></li>
 
-  </ul>
-</li>
-<li class="dropdown">
-  <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover="dropdown" data-toggle="dropdown" href="#">
-    About<b class="caret"></b>
-  </a>
-  <ul class="dropdown-menu">
-    <li >
-  <a href="/about/team/team.html">Team</a>
-</li>
-
-  </ul>
-</li>
-<li class="active"><a href="/contactus/contactus.html">Contact Us</a></li>
 		</ul>
             </div>
         </div>

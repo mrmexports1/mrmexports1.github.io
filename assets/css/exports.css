@@ -2435,3 +2435,15 @@ section.blog .sidebar .sidebar-content .discussion-list li .details p {
         .jssora03r:hover { background-position: -183px -33px; }
         .jssora03l.jssora03ldn { background-position: -243px -33px; }
         .jssora03r.jssora03rdn { background-position: -303px -33px; }
+
+
+a {
+    color: #B9171F;
+    text-decoration: none
+}
+.dropdown-menu>.active>a,.dropdown-menu>.active>a:focus,.dropdown-menu>.active>a:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #B9171F;
+    outline: 0
+}

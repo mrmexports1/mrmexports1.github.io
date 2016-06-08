@@ -10,7 +10,7 @@
               $SlideEasing: $JssorEasing$.$EaseInOutQuad,
               $ArrowNavigatorOptions: {
                 $Class: $JssorArrowNavigator$,
-                $Steps: 2
+                $Steps: 1
               },
               $BulletNavigatorOptions: {
                 $Class: $JssorBulletNavigator$,

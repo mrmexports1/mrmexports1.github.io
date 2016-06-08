@@ -41,9 +41,8 @@
              </div>
 			</div>-->
             <!-- Arrow Navigator -->
-			<span class="jssora03l" data-autocenter="2" data-u="arrowleft" style=
-				"top:0px;left:8px;width:55px;height:55px;"></span> <span class="jssora03r" data-autocenter="2" data-u="arrowright"
-				style="top:0px;right:8px;width:55px;height:55px;"></span>
+           <span class="jssora03r" data-autocenter="2" data-u="arrowleft" style="top:0px;right:8px;width:55px;height:55px;"></span>
+		   <span class="jssora03l" data-autocenter="2" data-u="arrowright" style="top:0px;left:8px;width:55px;height:55px;"></span>
 		</div>
 
 		<div class="container" style="padding-left: 0px;">

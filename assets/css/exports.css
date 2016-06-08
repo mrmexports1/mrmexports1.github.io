@@ -2,6 +2,7 @@
 
 @import url("http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic");
 @import url("http://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 .isotope-item {
     z-index: 2;
 }
@@ -74,7 +75,7 @@
 }
 body {
   margin-top: 50px;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif, serif;
 }
 a {
     color: #303641;

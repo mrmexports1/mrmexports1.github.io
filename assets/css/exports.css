@@ -73,7 +73,8 @@
     clear: both;
 }
 body {
-    margin-top: 50px;
+  margin-top: 50px;
+  font-family: sans-serif;
 }
 a {
     color: #303641;
@@ -2437,10 +2438,6 @@ section.blog .sidebar .sidebar-content .discussion-list li .details p {
         .jssora03r.jssora03rdn { background-position: -303px -33px; }
 
 
-a {
-    color: #B9171F;
-    text-decoration: none
-}
 .dropdown-menu>.active>a,.dropdown-menu>.active>a:focus,.dropdown-menu>.active>a:hover {
     color: #fff;
     text-decoration: none;

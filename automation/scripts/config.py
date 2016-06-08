@@ -1,6 +1,7 @@
 # Project root directory
 #PROJ_ROOT = '/Users/jayabal/git/exports/'
 PROJ_ROOT = 'C:\Users\Nathiya\Documents\GitHub\exports\\'
+#PROJ_ROOT = '/Users/sundarms/github/mrmexports1.github.io/'
 TEMPLATES = PROJ_ROOT + 'automation/templates/'
 CONTENTS = PROJ_ROOT + 'automation/contents/'
 PROJ_TITLE = 'MRM Exports'

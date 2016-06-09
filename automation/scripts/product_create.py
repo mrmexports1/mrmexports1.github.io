@@ -79,7 +79,7 @@ def build_sideprod_menu(menu, nav_menuconf):
                 link = '/{}/{}/{}.html'.format(menu.lower(),
                                                j.lower(),
                                                j.lower())
-                list_text += '''<li><a class="btn btn-default"''' \
+                list_text += '''<li><a class="btn btn-default btn-rounded waves-effect waves-light"''' \
                              '''href="{}">{}</a></li>\n'''.format(link, j)
             break
 

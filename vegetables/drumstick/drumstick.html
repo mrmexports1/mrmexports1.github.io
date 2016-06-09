@@ -1,87 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 	<!--Start of head-->
-	  <head>
-    <meta content="IE=edge" http-equiv="X-UA-Compatible">
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1" name="viewport">
-    <meta name="keywords" content="mrm, export, india, less price, fruits, melon, pomegranate, grains, rice, vegetables, coconut, drumstick, elephant yam, onion, coconut board">
-    <link href="/assets/images/favicon.png" rel="icon">
-    <title>Drumstick | MRM Exports</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" id="style-resource-1" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet">
-    <link href="/assets/css/entypo.css" id="style-resource-2" rel="stylesheet">
-    <link href="/assets/css/exports.css" id="style-resource-3" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" crossorigin="anonymous"></script>
-    <script src="/assets/js/main.js"></script>
-    <script src="/assets/js/jssor.js"></script>
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
+	<head>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta name="keywords" content="mrm, export, india, less price, fruits, melon, pomegranate, grains, rice, vegetables, coconut, drumstick, elephant yam, onion, coconut board">
+  <link href="/assets/images/favicon.png" rel="icon">
+  <title>Drumstick | MRM Exports</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" id="style-resource-1" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet">
+  <link href="/assets/css/entypo.css" id="style-resource-2" rel="stylesheet">
+  <link href="/assets/css/exports.css" id="style-resource-3" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" crossorigin="anonymous"></script>
+  <script src="/assets/js/main.js"></script>
+  <script src="/assets/js/jssor.js"></script>
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
 	<!--/#head-->
 	<body>
 
 		<!--Start of scripts -->
-		  <script>
-         jQuery(document).ready(function ($) {
-            var jssor_1_options = {
-              $AutoPlay: true,
-              $AutoPlaySteps: 1,
-              $SlideDuration: 10,
-              $SlideWidth: 285,
-              $SlideSpacing: 3,
-              $Cols: 2,
-              $SlideEasing: $JssorEasing$.$EaseInOutQuad,
-              $ArrowNavigatorOptions: {
-                $Class: $JssorArrowNavigator$,
-                $Steps: 1
-              },
-              $BulletNavigatorOptions: {
-                $Class: $JssorBulletNavigator$,
-                $SpacingX: 1,
-                $SpacingY: 1
-              }
-            };
-            
-            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
-            //responsive code begin
-            //you can remove responsive code if you don't want the slider scales while window resizing
-            function ScaleSlider() {
-                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
-                if (refSize) {
-                    refSize = Math.min(refSize, 1170);
-                    jssor_1_slider.$ScaleWidth(refSize);
-                }
-                else {
-                    window.setTimeout(ScaleSlider, 30);
-                }
+		<script>
+       jQuery(document).ready(function ($) {
+          var jssor_1_options = {
+            $AutoPlay: true,
+            $AutoPlayInterval: 1600,
+            $AutoPlaySteps: 1,
+            $SlideDuration: 10,
+            $SlideWidth: 285,
+            $SlideSpacing: 3,
+            $Cols: 2,
+            $SlideEasing: $JssorEasing$.$EaseInOutSine,
+            $ArrowNavigatorOptions: {
+              $Class: $JssorArrowNavigator$,
+              $Steps: 1
+            },
+            $BulletNavigatorOptions: {
+              $Class: $JssorBulletNavigator$,
+              $SpacingX: 1,
+              $SpacingY: 1
             }
-            ScaleSlider();
-            $(window).bind("load", ScaleSlider);
-            $(window).bind("resize", ScaleSlider);
-            $(window).bind("orientationchange", ScaleSlider);
-            //responsive code end
-        });
+          };
 
-  </script> 
+          var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+          //responsive code begin
+          //you can remove responsive code if you don't want the slider scales while window resizing
+          function ScaleSlider() {
+              var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+              if (refSize) {
+                  refSize = Math.min(refSize, 1170);
+                  jssor_1_slider.$ScaleWidth(refSize);
+              }
+              else {
+                  window.setTimeout(ScaleSlider, 30);
+              }
+          }
+          ScaleSlider();
+          $(window).bind("load", ScaleSlider);
+          $(window).bind("resize", ScaleSlider);
+          $(window).bind("orientationchange", ScaleSlider);
+          //responsive code end
+      });
+
+</script> 
 
 		<!--/#scripts -->
 
 		<!-- start of header navigation-->
-		    <div class="navbar navbar-default navbar-fixed-top site-header-container">
-        <div class="container site-header-container">
-            <div class="navbar-header">
-                <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand site-nav-logo" href="/index.html"><span class="site-header">MRM Exports</span></a>
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav nav-menu pull-right">
-		    <li ><a href="/index.html"><span class="fa fa-home home-icon">&nbsp;&nbsp;</span>Home</a></li><li class="dropdown">
+		<div class="navbar navbar-default navbar-fixed-top site-header-container">
+    <div class="container site-header-container">
+        <div class="navbar-header">
+            <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand site-nav-logo" href="/index.html"><span class="site-header">MRM Exports</span></a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav nav-menu pull-right">
+        <li ><a href="/index.html"><span class="fa fa-home home-icon">&nbsp;&nbsp;</span>Home</a></li><li class="dropdown">
   <a class="dropdown-toggle" data-delay="0" data-hover="dropdown" data-toggle="dropdown" href="#">
     Fruits<b class="caret"></b>
   </a>
@@ -129,10 +130,10 @@
 <li ><a href="/aboutus/aboutus.html">About Us</a></li>
 <li ><a href="/contactus/contactus.html">Contact Us</a></li>
 
-		</ul>
-            </div>
+    </ul>
         </div>
-    </div>	
+    </div>
+</div>	
 
 		<!--/header navigation-->
 
@@ -174,12 +175,11 @@
 
 		<div class="container" style="padding-left: 0px;">
 			<section id="Drumstick" class="container" style="margin-top: 20px; padding-bottom: 30px; background:url(/vegetables/drumstick/images/cover-t.jpg) 100% 100% no-repeat; background-size:cover;">
-		      
-            <!-- Start Sub prod -->
-            
-            <div class="row">
-		    <!--Side product menu -->
-		     <!--
+		      <!-- Start Sub prod -->
+
+<div class="row">
+<!--Side product menu -->
+ <!--
 <div class="col-xs-12 col-sm-2 text-center">
 <div class="entry-meta">
 <ul class="blog_category">
@@ -194,28 +194,28 @@
 </div>
 -->
 
-                <div class="col-xs-12 col-sm-2 text-center">
-                <!--To Leave the spaces in the left -->
-                </div>
-                
-                <div class="col-xs-12 col-sm-10 blog-content">
-                    <div class="row blog-content">
-                        <h2 style="margin-left:30%;margin-bottom:10px">Drumstick</h2><br>
-                        <div class="col-xs-12 col-sm-4 blog-content">
-                            <a href="#"><img class="img-responsive img-blog" src="/vegetables/drumstick/images/ds1.jpg" width="100%" alt="" /></a>
+    <div class="col-xs-12 col-sm-2 text-center">
+    <!--To Leave the spaces in the left -->
+    </div>
 
-                        </div>
+    <div class="col-xs-12 col-sm-10 blog-content">
+        <div class="row blog-content">
+            <h2 style="margin-left:30%;margin-bottom:10px">Drumstick</h2><br>
+            <div class="col-xs-12 col-sm-4 blog-content">
+                <a href="#"><img class="img-responsive img-blog" src="/vegetables/drumstick/images/ds1.jpg" width="100%" alt="" /></a>
 
-                <div class="col-xs-12 col-sm-6 blog-content">
+            </div>
 
-                    <p style="text-align:justify">We are engaged in offer fresh Drumsticks in the global market. Our Drumsticks are lengthy and of medium softness. They are well examined for infestation, rot and decay at the time of procuring. We pack Drumsticks in optimum quality material to ensure long shelf life. We assure safe and timely delivery of Drumsticks in bulk quantities with our excellent transportation facilities. Drumsticks are made available round the year at reasonable prices.
+    <div class="col-xs-12 col-sm-6 blog-content">
+
+        <p style="text-align:justify">We are engaged in offer fresh Drumsticks in the global market. Our Drumsticks are lengthy and of medium softness. They are well examined for infestation, rot and decay at the time of procuring. We pack Drumsticks in optimum quality material to ensure long shelf life. We assure safe and timely delivery of Drumsticks in bulk quantities with our excellent transportation facilities. Drumsticks are made available round the year at reasonable prices.
 </p>
-                    <p></p>
-                    <a class="btn btn-default btn-rounded waves-effect waves-light" href="/contactus/contactus.html#contact-us">Get quote</a>
-                </div>
-                </div>
-                </div>
-            </div> <!--End of sub prod row -->
+        <p></p>
+        <a class="btn btn-default btn-rounded waves-effect waves-light" href="/contactus/contactus.html#contact-us">Get quote</a>
+    </div>
+    </div>
+    </div>
+</div> <!--End of sub prod row -->
 
 
 			</section>

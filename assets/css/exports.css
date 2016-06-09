@@ -131,9 +131,14 @@
 .waves-effect.waves-classic.waves-light .waves-ripple {
 	background:rgba(255,255,255,.4)
 }
+html {
+  position: relative;
+  min-height: 100%;
+}
 body {
   margin-top: 50px;
   background-color: #fafcfe;
+  margin: 0 0 100px; /* bottom = footer height */
 }
 
 a {
@@ -1350,7 +1355,11 @@ p {
 .site-footer {
   background: #0185AE;
   color: #fff;
-  padding: 20px 0;
+  padding: 15px 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 .share {

@@ -22,8 +22,8 @@ def build_site_footer(outfile):
 def build_prod_jscripts(outfile):
     replace_text_with_file_context({'product_jscript':PRODUCT_JSCRIPT_FILE}, outfile)
 
-def build_google_anlytics(outfile):
-    replace_text_with_file_context({'google_anlytics':GOOGLE_ANLYTICS_FILE}, outfile)
+def build_google_analytics(outfile):
+    replace_text_with_file_context({'google_analytics':GOOGLE_ANALYTICS_FILE}, outfile)
 
 def build_section_id_product(conf, outfile):
     replace_txt = ''
@@ -135,7 +135,7 @@ def main():
     build_site_navigation(conf['product'], outfile)
     build_site_footer(outfile)
     build_prod_jscripts(outfile)
-    build_google_anlytics(outfile)
+    build_google_analytics(outfile)
 
     for i in conf:
         if i in function_table:

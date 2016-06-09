@@ -25,8 +25,8 @@ def build_aboutus_jscripts(outfile):
 def build_aboutus_content(outfile):
     replace_text_with_file_context({'aboutus_content':ABOUTUS_CONTENT_FILE}, outfile)
 
-def build_google_anlytics(outfile):
-    replace_text_with_file_context({'google_anlytics':GOOGLE_ANLYTICS_FILE}, outfile)
+def build_google_analytics(outfile):
+    replace_text_with_file_context({'google_analytics':GOOGLE_ANALYTICS_FILE}, outfile)
 
 def build_section_id_product(conf, outfile):
     replace_txt = ''
@@ -134,7 +134,7 @@ def main():
     build_site_head(outfile)
     build_site_navigation('About Us', outfile)
     build_site_footer(outfile)
-    build_google_anlytics(outfile)
+    build_google_analytics(outfile)
 
     build_aboutus_jscripts(outfile)
     build_aboutus_content(outfile)

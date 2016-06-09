@@ -74,7 +74,6 @@
 
 body {
   margin-top: 50px;
-  font-family: 'Roboto', sans-serif, serif;
   background-color: #fafcfe;
 }
 
@@ -162,6 +161,7 @@ p {
   position: relative;
   font-size: 18px;
   line-height: 1;
+  font-family: 'Roboto', 'Open sans', sans-serif, serif;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {

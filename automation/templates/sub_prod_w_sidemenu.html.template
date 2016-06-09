@@ -1,26 +1,19 @@
-<!-- Start Sub prod -->
-
-<div class="row">
-<!--Side product menu -->
- ###side_prod_menu###
+  <div class="row">
+    <!--Side product menu -->
+    ###side_prod_menu###
     <div class="col-xs-12 col-sm-2 text-center">
-    <!--To Leave the spaces in the left -->
+      <!--To Leave the spaces in the left -->
     </div>
-
-    <div class="col-xs-12 col-sm-10 blog-content">
-        <div class="row blog-content">
-            <h2 style="margin-left:30%;margin-bottom:10px">###name###</h2><br>
-            <div class="col-xs-12 col-sm-4 blog-content">
-                <a href="#"><img class="img-responsive img-blog" src="###image###" width="100%" alt="" /></a>
-
-            </div>
-
-    <div class="col-xs-12 col-sm-6 blog-content">
-
-        <p style="text-align:justify">###desc1###</p>
-        <p>###desc2###</p>
-        <a class="btn btn-default btn-rounded waves-effect waves-light" href="/contactus/contactus.html#contact-us">Get quote</a>
+    <div class="col-xs-12 col-sm-10">
+      <div class="row blog-content">
+        <h2 style="margin-left:30%;margin-bottom:10px">###name###</h2><br>
+        <div class="col-xs-12 col-sm-4 blog-content">
+          <a href="#"><img alt="" class="img-responsive" src="###image###" width="100%"></a>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+          <p style="text-align:justify">###desc1###</p>
+          <p>###desc2###</p><a class="btn btn-default btn-rounded waves-effect waves-light" href="/contactus/contactus.html#contact-us">Get quote</a>
+        </div>
+      </div>
     </div>
-    </div>
-    </div>
-</div> <!--End of sub prod row -->
+  </div><!--End of sub prod row -->

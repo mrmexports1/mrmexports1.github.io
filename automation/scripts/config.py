@@ -1,7 +1,19 @@
+import os
+PROJ_ROOT = os.getcwd()
+if '/' in PROJ_ROOT:
+    split_path = PROJ_ROOT.rstrip('/').split('/')
+    PROJ_ROOT = '/'.join(split_path[:-2]) + '/'
+elif '\\' in PROJ_ROOT:
+    split_path = PROJ_ROOT.rstrip('\\').split('\\')
+    PROJ_ROOT = '\\'.join(split_path[:-2]) + '\\'
+else:
+    raise EnvironmentError('Unable to set PROJ_ROOT')
+
+
 # Project root directory
 #PROJ_ROOT = '/Users/jayabal/git/exports/'
 #PROJ_ROOT = 'C:\Users\Nathiya\Documents\GitHub\exports\\'
-PROJ_ROOT = '/Users/sundarms/github/mrmexports1.github.io/'
+#PROJ_ROOT = '/Users/sundarms/github/mrmexports1.github.io/'
 TEMPLATES = PROJ_ROOT + 'automation/templates/'
 CONTENTS = PROJ_ROOT + 'automation/contents/'
 PROJ_TITLE = 'MRM Exports'

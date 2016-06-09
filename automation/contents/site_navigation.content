@@ -32,7 +32,7 @@
 
   </ul>
 </li>
-<li class="dropdown active">
+<li class="dropdown">
   <a class="dropdown-toggle" data-delay="0" data-hover="dropdown" data-toggle="dropdown" href="#">
     Vegetables<b class="caret"></b>
   </a>
@@ -46,13 +46,13 @@
 <li >
   <a href="/vegetables/onion/onion.html">Onion</a>
 </li>
-<li class="active">
+<li >
   <a href="/vegetables/yam/yam.html">Yam</a>
 </li>
 
   </ul>
 </li>
-<li ><a href="/aboutus/aboutus.html">About Us</a></li>
+<li class="active"><a href="/aboutus/aboutus.html">About Us</a></li>
 <li ><a href="/contactus/contactus.html">Contact Us</a></li>
 
       </ul>

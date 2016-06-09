@@ -1,7 +1,7 @@
 # Project root directory
 #PROJ_ROOT = '/Users/jayabal/git/exports/'
-PROJ_ROOT = 'C:\Users\Nathiya\Documents\GitHub\exports\\'
-#PROJ_ROOT = '/Users/sundarms/github/mrmexports1.github.io/'
+#PROJ_ROOT = 'C:\Users\Nathiya\Documents\GitHub\exports\\'
+PROJ_ROOT = '/Users/sundarms/github/mrmexports1.github.io/'
 TEMPLATES = PROJ_ROOT + 'automation/templates/'
 CONTENTS = PROJ_ROOT + 'automation/contents/'
 PROJ_TITLE = 'MRM Exports'
@@ -13,7 +13,7 @@ SITE_HEAD_FILE = CONTENTS + 'site_head.content'
 #SITE_NAVIGATION_FILE = CONTENTS + 'site_navigation.content'
 SITE_NAVIGATION_FILE = CONTENTS + 'site_navigation.content'
 SITE_FOOTER_FILE = CONTENTS + 'site_footer.content'
-GOOGLE_ANLYTICS_FILE = CONTENTS + 'google_analytics_init.content'
+GOOGLE_ANALYTICS_FILE = CONTENTS + 'google_analytics_init.content'
 
 # =================
 # Menu Navigation - generated for each page

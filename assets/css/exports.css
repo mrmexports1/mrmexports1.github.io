@@ -1034,12 +1034,6 @@ p {
 }
 
 @media screen and (max-width: 767px) {
-  .portfolio-items .col-xs-6 {
-    width: 49.9%;
-  };
-}
-
-@media screen and (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu>li>a {
     color: black;
   }
@@ -1101,6 +1095,10 @@ p {
   .portfolio-item-details .item-description dl {
     text-align: left;
     margin-bottom: 0px;
+  }
+  
+  .portfolio-items .col-xs-6 {
+    width: 49.9%;
   }
 
   .portfolio-item h4 a.like.liked i, .gallery-item h4 a.like.liked i, .portfolio-item h4 a.like:hover i, .gallery-item h4 a.like:hover i, .portfolio-item h4 a.like i, .gallery-item h4 a.like i {
